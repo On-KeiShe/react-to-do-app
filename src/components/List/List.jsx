@@ -1,3 +1,4 @@
+import '../List/List.css'
 import ListItem from "../ListItem/ListItem"
 import Adder from "../Adder/Adder"
 

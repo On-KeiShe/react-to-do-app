@@ -1,3 +1,4 @@
+import '../Adder/Adder.css'
 import { useState } from "react"
 
 const Adder = ({tasks, setTasks}) =>{

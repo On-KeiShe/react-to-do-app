@@ -1,12 +1,17 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
 font-family: outfit;
-font-weight: 200;
-text-align: center;
+margin:20px;
+}
 
+button {
+  background-color: white;
+  border: solid 1px;
+  border-radius: 2px;
+  padding:00px 5px;
 }
