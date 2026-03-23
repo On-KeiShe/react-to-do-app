@@ -7,7 +7,7 @@ function App() {
     const [tasks,setTasks] = useState([])
   return(
     <>
-<Header tasks={tasks}setTasks={setTasks}/>
+<Header setTasks={setTasks}/>
 <List tasks={tasks} setTasks={setTasks}/>
     </>
   )

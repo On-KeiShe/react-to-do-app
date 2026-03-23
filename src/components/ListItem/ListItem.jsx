@@ -1,20 +1,13 @@
-import '../ListItem/ListItem.css'
+import '../ListItem/ListItem.css';
 
-const ListItem = ({task}) =>{
-
-  const handleDelete =()=>{
-
-  }
-
+const ListItem = ({ task, handleDelete }) => {
   return (
-    <>
     <li>
-      <input type="checkbox"></input>
+      <input type="checkbox" />
       <span className="task-text">{task}</span>
-      <button onClick={handleDelete}>🗑</button>
+      <button className="delete-button" onClick={handleDelete}>🗑</button>
     </li>
-    </>
-  )
-}
+  );
+};
 
-export default ListItem
+export default ListItem;
