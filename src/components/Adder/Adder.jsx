@@ -19,8 +19,10 @@ const handleChange = (event) => {
   return (
     <>
     <form onSubmit={handleSubmit}>
-      <input type="text" onChange={handleChange} value={input} placeholder="Add your task here..."/>
-      <button type="submit">+</button>
+      <div className="input-and-button">
+      <input className="input-textbox" type="text" onChange={handleChange} value={input} placeholder="Add your task here..."/>
+      <button className="add-button"type="submit">+</button>
+      </div>
     </form>
     </>
   )
