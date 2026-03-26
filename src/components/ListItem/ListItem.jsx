@@ -1,11 +1,11 @@
-import '../ListItem/ListItem.css';
+import "../ListItem/ListItem.css";
 
-const ListItem = ({ task, handleDelete }) => {
+const ListItem = ({ task }) => {
   return (
     <li>
-      <input type="checkbox" />
-      <span className="task-text">{task}</span>
-      <button className="delete-button" onClick={handleDelete}>🗑</button>
+      <input type="checkbox" checked={task.completed} readOnly />
+      <span className="task-text">{task.text}</span>
+      <button className="delete-button">🗑</button>
     </li>
   );
 };
